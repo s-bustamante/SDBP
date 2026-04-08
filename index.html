@@ -1,32 +1,39 @@
 <!DOCTYPE html>
-<!-- Estructura básica de HTML -->
-
 <html lang="es">
 
 <head>
-    <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SDBP</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 
 <body>
 
-    <!-- CABECERA -->
-    <div>
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#quien">¿Quién soy?</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#planes">Planes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- CABECERA / INICIO -->
+    <div id="inicio">
         <h1>SDBP</h1>
         <h3>Soluciones de Desarrollo Backend & Pages</h3>
         <p>Fundado por Santiago David Bustamante Pancho</p>
         <p>"Transformando ideas en soluciones web"</p>
-
-        <!-- Contacto rápido -->
         <p>+593 99 261 7858 | sbustamante2147@gmail.com</p>
     </div>
 
     <br>
-    
+
     <!-- QUIEN SOY -->
-    <section>
+    <section id="quien">
         <h2>¿Quién soy?</h2>
 
         <!-- Imagen de mi persona -->
@@ -48,20 +55,18 @@
         <ul>
             <li>Santiago David Bustamante Pancho</li>
             <li>Soluciones de Desarrollo Backend & Pages</li>
-
-             <!-- Sobre mí -->
+        </ul>
         <p>
             <a href="vistas/sobremi.html" target="_blank">
-                Conoceme un poco mas...
+                Conóceme un poco más...
             </a>
         </p>
-        </ul>
     </section>
 
     <br>
 
     <!-- SERVICIOS -->
-    <section>
+    <section id="servicios">
         <h2>Servicios</h2>
         <ul>
             <li>Desarrollo web</li>
@@ -69,9 +74,9 @@
             <li>Diseño responsive</li>
             <li>Optimización</li>
             <li>Mantenimiento</li>
-            <li>Instalacion de Sistemas Operativos</li>
-            <li>Instalacion de Maquinas Virtuales</li>
-            <li>Instalacion y Configuracion de Servidores</li>
+            <li>Instalación de Sistemas Operativos</li>
+            <li>Instalación de Máquinas Virtuales</li>
+            <li>Instalación y Configuración de Servidores</li>
         </ul>
     </section>
 
@@ -88,7 +93,7 @@
     <br>
 
     <!-- TABLA DE PRECIOS -->
-    <section>
+    <section id="planes">
         <h2>Planes</h2>
         <table border="1">
             <tr>
@@ -98,7 +103,7 @@
             <tr>
                 <td>Instalación de Sistemas Operativos</td>
                 <td>$20</td>
-             </tr>
+            </tr>
             <tr>
                 <td>Instalación de Máquinas Virtuales</td>
                 <td>$35</td>
@@ -132,20 +137,9 @@
 
     <br>
 
-    <!-- REDES -->
-    <section>
-        <h2>Redes Sociales</h2>
-        <a href="https://facebook.com" target="_blank">Facebook</a><br>
-        <a href="https://www.instagram.com/santi.bu_/" target="_blank">Instagram</a><br>
-        <a href="https://github.com/s-bustamante" target="_blank">GitHub</a>
-    </section>
-
-    <br>
-
-    <!-- NAVEGACION -->
-    <section>
+    <!-- NAVEGACION / CONTACTO -->
+    <section id="contacto">
         <h3>Más información</h3>
-        <!-- Contacto -->
         <p>
             <a href="vistas/contacto.html" target="_blank">
                 Contáctame
@@ -160,6 +154,14 @@
         <p>Dirección: Quito, Ecuador</p>
         <p>© 2026 SDBP</p>
     </div>
+
+    <!-- REDES SOCIALES AL FINAL -->
+    <section>
+        <h2>Redes Sociales</h2>
+        <a href="https://facebook.com" target="_blank">Facebook</a><br>
+        <a href="https://www.instagram.com/santi.bu_/" target="_blank">Instagram</a><br>
+        <a href="https://github.com/s-bustamante" target="_blank">GitHub</a>
+    </section>
 
 </body>
 

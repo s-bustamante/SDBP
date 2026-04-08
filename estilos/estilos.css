@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 60px;
+}
+
+/* MENÚ FIJO */
+nav {
+    
+    position: fixed;   
+    top: 0;            
+    width: 100%;       
+    background-color: #000000;
+    padding: 10px 0;
+    z-index: 1000;     
+}
+
+/* Lista del menú */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Elementos del menú */
+nav ul li {
+    display: inline;
+    margin:  15px;
+}
+
+/* Links */
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover simple */
+nav ul li a:hover {
+    text-decoration: underline;
+}
