@@ -32,11 +32,14 @@ nav ul li {
 
 /* Links */
 nav ul li a {
-    color: red;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
-
+nav ul li a:hover{
+    color: red;
+    
+}
 /* Hover simple */
 nav ul li a:hover {
     text-decoration: underline;
